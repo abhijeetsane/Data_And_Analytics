@@ -4,7 +4,7 @@
 
 - **WhataGraph** [https://whatagraph.com/]
   - Whatagraph is a cross-channel reporting tool that helps businesses to track, measure, and analyze marketing performance with clients and teams. Users can automatically pull data from all of their marketing channels, create visual, engaging reports, and share them easily.
-  - Several benefits of using it are finding corelations, quick action, identifying new trends and also complex concepts are simplified.
+  - Several benefits of using it are finding correlations, quick action, identifying new trends and also complex concepts are simplified.
   - It has features and the ability to extract and transform data in real-time, so your interactive graphs will change frequently.
   - One can remove or add some components, compare them with one another over a specific time frame, and isolate outliers.
   - It allows you to curate detailed performance dashboards and monitor otherwise complex data in a fairly simple way. To visualize social media metrics or any other marketing analytics, this is a preferred tool.
@@ -28,7 +28,7 @@
   
 - **VizLib** [https://www.vizlib.com/]
   - Extends Qlik's native functionality to enable users to explore data independently, collaborate, converse and share insights instantly.
-  - Use rich customisation and templating capabilities to build beautiful dashboards that integrate seamlessly with your brand with nocoding required.
+  - Use rich customization and templating capabilities to build beautiful dashboards that integrate seamlessly with your brand with no coding required.
 
 - **Linkurious** [https://linkurious.com/platform/]
   - Linkurious Enterprise harnesses the power of graph analytics, creating a holistic view of the entities relevant to your investigations (people, transactions, companies, and more) and their relationships.
@@ -41,7 +41,7 @@
 
 - **DataLion** [https://datalion.com/]
   - Next-generation SaaS-based data visualization and analysis software suite for marketing, research, media, and BI data.
-  - DataLion offers innovative visualizations such as networks, heat maps, bubble charts, chorddiagrams, and others. It also enables its users to integrate their own custom chart types.
+  - DataLion offers innovative visualizations such as networks, heat maps, bubble charts, chord diagrams, and others. It also enables its users to integrate their own custom chart types.
   - About 50+ types of charts are available.
 
 - **Datawrapper** [https://www.datawrapper.de/]
@@ -51,7 +51,7 @@
 
 - **Flourish.Studio** [https://flourish.studio/]
   - Flourish Studio is a distinct data visualization tool which helps to explore and explain you data with beautiful visualization and stories.
-  - Easily make world-class visuals from our library of flexible templates with the help of dynamic charts, diagrams, heatmaps, pyramids, grids and projection maps.
+  - Easily make world-class visuals from our library of flexible templates with the help of dynamic charts, diagrams, heatmap, pyramids, grids and projection maps.
   - Assists in creating Bar chart race, Survey data, Magic charts, Zoomable hierarchies, Story maps, Violins and beeswarms, Chord diagrams, Mapping events and Connections globe.
 
 - **D3** [https://d3js.org/]
@@ -76,7 +76,7 @@
   - DOMO - BI is a cloud-based platform designed to provide direct, simplified, real-time access to business data for decision makers across the company with minimal IT involvement. It is a software-as-a-service (SaaS) venture.
   - On-the-fly BI takes cycle times from weeks to minutes.
   - Spends time on strategic data analytics, not wrangling data.
-  - Connect and work with dataflows from hundreds or thousands of sources.
+  - Connect and work with dataflow from hundreds or thousands of sources.
   - Cloud-scale BI that processes trillions of rows and delivers sub-second queries.
   
 - **Dundas BI** [https://www.dundas.com/]
@@ -94,7 +94,7 @@
 
 - **Lucify**[https://www.lucify.com/]
   - Lucify is an online data visualization tool that helps businesses to analyze data and generate business-relevant key insights from it.
-  - Depicts numeours features like Customizable Dashboard, Reporting/Analytics, Search/Filter and Visual Discovery.
+  - Depicts numerous features like Customizable Dashboard, Reporting/Analytics, Search/Filter and Visual Discovery.
   
 - **DataPine** [https://www.datapine.com/]
   - Datapine is a business intelligence & dashboarding platform that is focused on self-service, but also offers advanced analytics features such as predictive analytics or intelligent data alerts based on artificial intelligence and machine learning.
