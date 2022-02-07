@@ -3,6 +3,7 @@
 - Rapid Miner
 - Kinime
 - Alteryx
+- 
 - **Revolution Analytics** [ <https://www.revolution-analytics.co.ke/> ]
   - Revolution Analytics provides an enterprise-class platform for the development and deployment of R-based analytic solutions that can scale across large data warehouses and Hadoop systems, and can integrate with enterprise systems.
   - Revolution R Enterprise is a commercial package of R, an open-source functional programming language designed for statistical computing and graphics.

@@ -5,7 +5,7 @@
 - **Data Kin** [https://datakin.com/]
   - Datakin is an end-to-end, real-time data lineage solution that helps you manage everything in your data ecosystem.
   - It observes the movement of data through pipelines, tracing relationships between datasets and making it easier to find, fix, and prevent issues.
-  - Datakin automatically traces data lineage, showing your entire data ecosystem in a rich visual graph. It clearly illustrates the upstream and downstream relationships for each dataset.
+  - Datakin automatically traces data lineage, showing your entire data ecosystemw in a rich visual graph. It clearly illustrates the upstream and downstream relationships for each dataset.
   - Show data quality metrics and how they change over time so as to determine the anomalies.
   - Can also find a job’s performance in a Gantt-style chart along with its upstream dependencies, making it easy to find bottlenecks.
   
