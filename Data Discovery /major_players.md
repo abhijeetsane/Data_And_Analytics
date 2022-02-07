@@ -23,3 +23,5 @@
     - Anomaly detection
 
 - Alpine Data Labs
+  - Acquired by TIBCO renamed TIBCO Data Discovery
+  - TIBCO® Data Discovery provides automated data profiling and discovery capabilities as a robust, scalable, highly available and easily deployable solution for mission-critical enterprise data quality. Automated profiling capabilities provide valuable insight about the current state of the data. Early discovery highlights issues, anomalies, and previously unknown data problems
