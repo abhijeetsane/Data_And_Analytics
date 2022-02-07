@@ -59,3 +59,56 @@
   - Cape Privacy enables businesses to run predictive machine learning models on encrypted data.
   - Cape’s platform uses secure multiparty computation (MPC) to operationalize the data securely, avoiding a single point of failure and enabling computations on data that was previously inaccessible.
   - Instead, encrypted data can now be transferred to a third-party data cloud, along with any models clients want, and predictions can be made using the encrypted data. Privacy and security compliance are ensured because the data is never decrypted.
+
+- **Apache Ranger** [ <https://ranger.apache.org/> ]
+  - Apache Ranger™ is a framework to enable, monitor and manage comprehensive data security across the Hadoop platform.
+  - It currently provides a centralised security administration, access control and detailed auditing for user access within the Hadoop, Hive, HBase and other Apache components
+  - It uses this centralized security administration to manage all security related tasks in a central UI or using REST APIs.
+  - It enables us to centralize the auditing of user access and administrative actions (security related) within all the components of Hadoop
+
+- **Knox** [ <https://knox.apache.org/> ]
+  - The Apache Knox™ Gateway is an Application Gateway for interacting with the REST APIs and UIs of Apache Hadoop deployments.
+  - The Knox Gateway provides a single access point for all REST and HTTP interactions with Apache Hadoop clusters.
+  - It is designed as a reverse proxy with consideration for pluggability in the areas of policy enforcement, through providers and the backend services for which it proxies requests.
+  - It simplifies the number of services that clients need to interact with.
+  - The following Apache Hadoop ecosystem services have integrations with the Knox Gateway:
+    - Ambari
+    - Cloudera Manager
+    - WebHDFS (HDFS)
+    - Yarn RM
+    - Stargate (Apache HBase)
+    - Apache Oozie
+    - Apache Hive/JDBC
+    - Apache Hive WebHCat (Templeton)
+    - Apache Storm
+    - Apache Tinkerpop - Gremlin
+    - Apache Avatica/Phoenix
+    - Apache SOLR
+    - Apache Livy (Spark REST Service)
+    - Apache Flink
+    - Kafka REST Proxy
+
+- **Sentry** [ <https://sentry.apache.org/> ]
+  - Apache Sentry™ is a system for enforcing fine grained role based authorization to data and metadata stored on a Hadoop cluster.
+  - Sentry provides the ability to control and enforce precise levels of privileges on data for authenticated users and applications on a Hadoop cluster.
+  - Sentry is designed to be a pluggable authorization engine for Hadoop components. It allows you to define authorization rules to validate a user or application’s access requests for Hadoop resources.
+  - Sentry is highly modular and can support authorization for a wide variety of data models in Hadoop.
+  - There are components involved in the authorization process:
+    - Sentry Server
+    - Data Engine
+    - Sentry Plugin
+
+- **accumulo** [ <https://accumulo.apache.org/> ]
+  - Accumulo is a sorted, distributed key/value store that provides robust, scalable data storage and retrieval.
+  - With Apache Accumulo, users can store and manage large data sets across a cluster.
+  - Every Accumulo key/value pair has its own security label which limits query results based off user authorizations.
+  - Major Features
+    - Server-side programming
+    - Cell-based access control
+    - Designed to scale
+    - Stable
+
+- **snyk** [ <https://snyk.io/> ]
+  - Snyk (pronounced sneak) is a developer security platform for securing code, dependencies, containers, and infrastructure as code.
+  - Snyk tests for vulnerabilities in the code, open source dependencies, container images and infrastructure as code configurations, and offers context, prioritization, and remediation.
+  - Snyk supports: JavaScript, Java (Gradle, Maven), .NET, Python, Golang, Swift, Objective-C (CocoaPods), Scala, Ruby, PHP, and Bazel. 
