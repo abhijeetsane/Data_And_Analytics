@@ -18,7 +18,7 @@
   - Alteryx empowers analysts to prep, blend, and analyze data faster with hundreds of no-code, low-code analytic building blocks that enable highly configurable and repeatable workflows.
   - Integrate with 80+ data sources, including spreadsheets, documents, cloud sources, Snowflake, and RPA bots like UiPath and BluePrism to drive business outcomes.
   - Creates a culture of analytics by unleashing line-of-business users to all your data platforms using existing access, authentication and authorization permissions.
--
+
 - **Revolution Analytics** [https://www.revolution-analytics.co.ke/]
   - Revolution Analytics provides an enterprise-class platform for the development and deployment of R-based analytic solutions that can scale across large data warehouses and Hadoop systems, and can integrate with enterprise systems.
   - Revolution R Enterprise is a commercial package of R, an open-source functional programming language designed for statistical computing and graphics.
@@ -38,7 +38,7 @@
 
 - **Alpine Data Labs** [https://www.tibco.com/products/data-science]
   - Acquired by TIBCO renamed TIBCO Data Discovery
-  - TIBCO® Data Discovery provides automated data profiling and discovery capabilities as a robust, scalable, highly available and easily deployable solution for mission-critical enterprise data quality. Automated profiling capabilities provide valuable insight about the current state of the data. Early discovery highlights issues, anomalies, and previously unknown data problems
+  - TIBCO® Data Discovery provides automated data profiling and discovery capabilities as a robust, scalable, highly available and easily deployable solution for mission-critical enterprise data quality.   Automated profiling capabilities provide valuable insight about the current state of the data. Early discovery highlights issues, anomalies, and previously unknown data problems
 
 - **Secoda** [https://www.secoda.co/]
   - Secoda is a universal data discovery and documentation tool that makes finding metadata, queries, charts and documentation as easy as a google search.
