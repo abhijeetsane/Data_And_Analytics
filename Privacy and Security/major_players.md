@@ -111,4 +111,4 @@
 - **snyk** [ <https://snyk.io/> ]
   - Snyk (pronounced sneak) is a developer security platform for securing code, dependencies, containers, and infrastructure as code.
   - Snyk tests for vulnerabilities in the code, open source dependencies, container images and infrastructure as code configurations, and offers context, prioritization, and remediation.
-  - Snyk supports: JavaScript, Java (Gradle, Maven), .NET, Python, Golang, Swift, Objective-C (CocoaPods), Scala, Ruby, PHP, and Bazel. 
+  - Snyk supports: JavaScript, Java (Gradle, Maven), .NET, Python, Golang, Swift, Objective-C (CocoaPods), Scala, Ruby, PHP, and Bazel.
