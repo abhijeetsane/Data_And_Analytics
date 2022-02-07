@@ -9,8 +9,6 @@
   - Revolution R Enterprise is a commercial package of R, an open-source functional programming language designed for statistical computing and graphics.
   - R is being increasingly used for data analysis.
   
-- **Info Centricity** []
-  
 - **Megaputer** [ <https://www.megaputer.com/> ]
   - Megaputer provides two separate software packages for text analysis.
   - Megaputer provides two separate software packages for text analysis : PolyAnalyst, TextAnalyst
