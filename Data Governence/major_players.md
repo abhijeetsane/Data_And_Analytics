@@ -66,3 +66,14 @@
   - McAfee Skyhigh Security Cloud enables you to audit sharing permissions on files and folders and enforce collaboration policies. With this solution you can also define and apply specific view, edit and download permissions in real time based on the user’s role, location and whether the device is managed.
   - Leverages data science and network effects across billions of events to identify and stop threats.
   - It identifies sensitive or regulated data in motion or at rest in cloud services using pre-built, customizable policy templates or policies from your on-premises data loss prevention solution.
+
+
+- **Liqibase** [https://liquibase.org/]
+  - Track, version, and deploy database changes
+
+- **lakefs** [ https://liquibase.org/ ]
+  - LakeFS is an open-source project that provides a git-like version control interface for data lakes, with seamless integration to most data tools and frameworks.
+  - Easily implement parallel pipelines for experimentation, reproducibility and CI/CD
+  - Supports AWS S3, Azure Blob Storage and Google Cloud Storage (GCS) as its underlying storage service. It is API compatible with S3 and works seamlessly with all modern data frameworks such as Spark, Hive, AWS Athena, Presto, etc.
+
+
