@@ -1,5 +1,7 @@
-## Data Ingestion
-### Technology
+# Data Ingestion
+
+## Technology
+
 - AirByte
 - upsolver
 - Flink
@@ -38,11 +40,12 @@
       - A dataflow is only as good as it is secure. NiFi at every point in a dataflow offers secure exchange through the use of protocols with encryption such as 2-way SSL. In addition NiFi enables the flow to encrypt and decrypt content and use shared-keys or other mechanisms on either side of the sender/recipient equation.
     - Multi-tenant authorization and internal authorization/policy management.
       - The authority level of a given dataflow applies to each component, allowing the admin user to have fine grained level of access control. This means each NiFi cluster is capable of handling the requirements of one or more organizations. Compared to isolated topologies, multi-tenant authorization enables a self-service model for dataflow management, allowing each team or organization to manage flows with a full awareness of the rest of the flow, to which they do not have access.
+  
 - SyncSort
-- WaveFront 
+- WaveFront
 - Apache Storm
 - Data Torrent
 - Apache Samza
 - Gobblin
-- Apache Fume 
+- Apache Fume
 - Apache Sqoop

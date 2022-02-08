@@ -1,6 +1,5 @@
 # Use-cases
 
-
 ## **LakeFS**
 
 ### **LakeFS enhances processing workflows at each step of the data lifecycle**
