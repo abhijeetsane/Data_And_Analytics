@@ -75,3 +75,27 @@
     - Catalog / Discover: Search, preview and enrich data, metadata and data scores (quality, operational and popularity).
     - Prepare: Combine and transform data, from raw to ready.
     - Publish: Consuming data in the visualization tool of choice.
+
+- **Attunity** [https://www.qlik.com/us/attunity]
+  - Attunity is the data integration platform of Qlik, it provides end to end solution for data integration and analytics.
+  - Features:
+    - Real-Time Data Streaming
+    - Agile Data Warehouse Automation
+    - Managed Data Lake Creation
+  - Attunity provides a number of data integration and related products, namely, Attunity Replicate, Attunity CloudBeam, Attunity Connect, Attunity Gold Client, Attunity Managed FileTransfer, and Attunity RepliWeb.
+  - It provides high-performance data replication and loading, through a user interface.
+  - It automates the end-to-end replication process and can be integrated with Apache Kafka APIs to deliver data to HBase, Cassandra, Couchbase, MongoDB, and other big data platforms, in addition to database, data warehouse, and Hadoop and cloud storage.
+
+- **import.io** [https://www.import.io/resources/web-data-integration-a-new-source-of-competitive-advantage/]
+  - Import.io offers a SaaS-based (cloud) solution that helps enterprises harness web data by treating it with the same robust extract, preparation/transformation, and integration practices that would be expected for conventional BI analytic data or big data.
+  - Import.io’s web data extraction capability is designed for the modern web, which often requires website interactions during the extraction process.
+  - Import.io provides a visual environment for automating the workflow of extracting and transforming web data.
+
+- **infoworks** [https://www.infoworks.io/products/overview/]
+  - Infoworks automates data operations and data orchestration for developing and managing big data workflows from ingestion all the way to consumption in cloud, multi-cloud and hybrid environments.
+  - It provides interactive, drag-and-drop data transformation capabilities with support for SQL-based and other transformations.
+  - Infoworks automatically crawls data sources, including flat files, XML, JSON and relational databases, learns the metadata and infers data relationships for the ingested data from external data sources.
+
+- **snowplow** [https://snowplowanalytics.com/behavioral-data-challenges/]
+  - It is an open-source enterprise event-level analytics platform that enables data collection from multiple platforms for advanced data analytics.
+  - Snowplow SDK’s capture events across all platforms and channels in a single, commonly-structured data set, eliminating data silos and meaning every team is working from the same raw data set
