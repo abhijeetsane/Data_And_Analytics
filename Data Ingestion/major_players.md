@@ -2,11 +2,63 @@
 
 ## Technology
 
-- AirByte
-- upsolver
-- Flink
-- Amazon Kinesis
-- Confluent
+- **AirByte** [https://airbyte.com/]
+  - Airbyte is the new open-source data integration platform that syncs data from applications, APIs & databases to data warehouses, lakes and other destinations.
+  - Some of the features provided are Built for extensibility, Optional normalized schemas, Full-grade scheduler, Real-time monitoring, Incremental updates, Debugging autonomy.
+  - Services like optional, normalized schema let engineers opt for raw data to get going with their own normalization activities.
+  - Also, analysts can start using the data right away by opting for a similar module. Integrated APIs deployed by the software lets users get customized notifications without unnecessary delays.
+  - Companies just need to authenticate their warehouses and sources to get access to connectors that are capable of adapting to API related changes and schemas.
+
+- **upsolver** [https://www.upsolver.com/]
+  - Upsolver is the only SQL pipeline platform for cloud data lakes. It empowers any data practitioner to design pipelines that deliver continuous analytics-ready data in days, not the months required when hand-coding and orchestrating Spark.
+  - Features given are:
+    - Reading Data - Upsolver reads your raw data as is: JSON, CSV, TSV, Avro, Parquet and more.
+      - Build-it integrations: S3 / Kafka / Kinesis
+      - Exactly-once read from Kafka / Kinesis
+      - Replay from S3
+    - Delivering data - Upsolver delivers data to:
+      - S3 in various file formats including JSON, CSV, AVRO, Parquet. Upsolver also manages partitions and optimizes S3 file sizes.
+      - Analytics databases like Athena, Redshift and ElasticSearch.
+      - Upsolver itself for key based API requests in under 1 millisecond.
+    - Enrichments - Upsolver offers 100s of functions to clean and enrich raw data including hierarchies and arrays:
+      - Standard ansi-SQL functions
+      - Advanced functions for numbers, strings, dates and arrays
+      - Extraction of geo data from IPs (using MaxMind)
+      - User agent parser, Filters and User defined functions in Python
+    - Aggregations - Upsolver offers streaming aggregations that work for any size time window (using S3):
+      - Regular or aggregated output tables
+      - Sessionization
+      - Accurate count distinct in real-time and at scale
+      - Nested aggregations for user/device profiling
+    - Monitoring - All of Upsolver’s monitoring metrics are sent to internal monitoring system like DataDog or Influx. Upsolver user interface can also be used for monitoring.
+    - Deployment - Upsolver can be deployed either on our VPC or your VPC.
+    - Data Privacy - Your data always remains private – it resides ONLY on your S3.
+
+- **Flink** [https://flink.apache.org/]
+  - Apache Flink is an open-source, unified stream-processing and batch-processing framework developed by the Apache Software Foundation. The core of Apache Flink is a distributed streaming data-flow engine written in Java and Scala. It executes arbitrary dataflow programs in a data-parallel and pipelined manner. Flink's pipelined runtime system enables the execution of bulk/batch and stream processing programs.
+  - Flink’s features include support for stream and batch processing, sophisticated state management, event-time processing semantics, and exactly-once consistency guarantees for state.
+  - Moreover, Flink can be deployed on various resource providers such as YARN, Apache Mesos, and Kubernetes but also as stand-alone cluster on bare-metal hardware.
+  - Configured for high availability, Flink does not have a single point of failure. Flink has been proven to scale to thousands of cores and terabytes of application state, delivers high throughput and low latency, and powers some of the world’s most demanding stream processing applications.
+
+- **Amazon Kinesis**[https://aws.amazon.com/kinesis/]
+  - Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information.
+  - Offers key capabilities to cost-effectively process streaming data at any scale, along with the flexibility to choose the tools that best suit the requirements of your application. With Amazon Kinesis, you can ingest real-time data such as video, audio, application logs, website clickstreams, and IoT telemetry data for machine learning, analytics, and other applications.
+  - Enables you to process and analyze data as it arrives and respond instantly instead of having to wait until all your data is collected before the processing can begin.
+  - Use Cases of Amazon Kinesis are:
+    - Data log and data feed intake − We need not wait to batch up the data, we can push data to an Amazon Kinesis stream as soon as the data is produced. It also protects data loss in case of data producer fails. For example: System and application logs can be continuously added to a stream and can be available in seconds when required.
+    - Real-time graphs − We can extract graphs/metrics using Amazon Kinesis stream to create report results. We need not wait for data batches.
+    - Real-time data analytics − We can run real-time streaming data analytics by using Amazon Kinesis.
+  - Key Features include:
+    - Ease of Use: Users can seamlessly set up custom streams and deploy their data pipelines by setting the requirements and start streaming quickly.
+    - No Server Administration Required: There is no infrastructure that is required to be managed and many of the services are operated automatically so no continuous administration for deployments is required.
+    - Stream from Millions of Devices: The SDKs [Software Development Kit] provided with Amazon Video Streams enable streaming media to AWS for playback, storage, analytics, machine learning and other relevant processes.
+    - Cost Efficient: The platform offers pay as you use model which makes it cost-effective for organizations.
+    - High Scalability: Based on Amazon Web Services, it provides the ability to rapidly scale up and down according to the requirements of the user.
+
+- **Confluent** [https://www.confluent.io/]
+  - Confluent is pioneering a fundamentally new category of data infrastructure focused on data in motion. Our cloud-native offering is the foundational platform for data in motion is designed to be the intelligent connective tissue enabling real-time data, from multiple sources, to constantly stream across the organization.
+  - Offers a streaming platform based on Apache Kafka that enables companies to easily access data as real-time streams. The company's platform offers an open-source technology that acts as a real-time, fault-tolerant and highly scalable messaging system, enabling companies to move data from isolated systems into a real-time datapipeline where they can act on it immediately.
+  
 - Cloud PubSub
 - Materialize
 - **Apache Kafka**

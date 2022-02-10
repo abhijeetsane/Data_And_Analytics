@@ -64,7 +64,7 @@
   - Bigeye enables data teams to detect and proactively resolve data quality and pipeline issues before the business is affected.
   - Dashboard gives data team leaders a high-level view of data health, making it simple to monitor data quality coverage, impact on SLAs, time to resolution, and other key analytics.
 
-- SuperConductive [https://www.superconductive.ai/]
+- **SuperConductive** [https://www.superconductive.ai/]
   - GreatExpectation : Validating , documentating and profiling your data for maintaining data quality.
   - Declarative language with human readable python methods
   - Does not store data anywhere . Instead it deals in meta data.
@@ -100,6 +100,7 @@
   - Data Visibility for all the data assets on dashboard
   - Multiple pre-built connectors available
   - Alerting using ML based anomaly detection
+
   - **Provides following Data Quality Symptoms**
     - Data availability
       - Ensure tables are updated on time, and data volume is healthy
