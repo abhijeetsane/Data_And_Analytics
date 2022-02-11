@@ -57,11 +57,26 @@
 
 - **Confluent** [https://www.confluent.io/]
   - Confluent is pioneering a fundamentally new category of data infrastructure focused on data in motion. Our cloud-native offering is the foundational platform for data in motion is designed to be the intelligent connective tissue enabling real-time data, from multiple sources, to constantly stream across the organization.
+  - Built as a cloud-native service, Confluent Cloud offers a serverless experience with self-serve provisioning, elastic scaling, and usage-based billing so that you pay for what you stream and not for provisioned infrastructure.
+  - Confluent Cloud protects your data using industry-standard security features, and the service reliability is backed by an enterprise-grade uptime SLA.
+  - In addition to fully managing your Kafka clusters, Confluent Cloud also has fully managed components including Schema Registry, connectors to popular cloud services such as Amazon S3 and Redshift, and ksqlDB, enabling you to harness the full power of real-time events without any of the operational burden.
   - Offers a streaming platform based on Apache Kafka that enables companies to easily access data as real-time streams. The company's platform offers an open-source technology that acts as a real-time, fault-tolerant and highly scalable messaging system, enabling companies to move data from isolated systems into a real-time datapipeline where they can act on it immediately.
+  - Few of the use cases of using Confluent are Customer 360, Fraud Detection, Microservices, Hybrid and Multicloud.
   
-- Cloud PubSub
-- Materialize
-- **Apache Kafka**
+- **Cloud PubSub**
+
+- **Materialize** [https://materialize.com/]
+  - Materialize is a streaming database for real-time applications. Materialize accepts input data from a variety of streaming sources (like Kafka), data stores and databases (like S3 and Postgres), and files (like CSV and JSON), and lets you query them using SQL.
+  - It is also a reactive database that delivers incremental view updates. We help developers easily build with streaming data using standard SQL.
+  - Helps to Connect Your Data Sources, Create Real-Time Materialized Views, Build Live Dashboards and Experiences.
+  - Some of the use cases of this are Real-Time Alerts and Notifications, Fraud Detection and Risk Management, Logistics and IoT Management, Event-Driven Features, Personalized Customer Experiences and Predictive Machine Learning.
+  - Features are:
+    - Materialize instead keeps the results of the queries and incrementally updates them as new data comes in.Your database often acts as if it’s never been asked that question before, which means it can take a long time to come up with an answer, each and every time you pose the query. So, rather than recalculating the answer each time it’s asked, Materialize continually updates the answer and gives you the answer’s current state from memory.
+    - Materialize supports incrementally updating a much broader set of views than is common in traditional databases (e.g. views over multi-way joins with complex aggregations), and can do incremental updates in the presence of arbitrary inserts, updates, and deletes in the input streams.
+    - If you perform any OLAP queries over relational data and want to reduce the time it takes to refresh answers to common queries, Materialize can make that happen.
+    - For a sense of scale, it can take queries that most teams would run once-per-day and instead provide sub-second or single-digit second answers.
+
+- **Apache Kafka** [https://kafka.apache.org/]
   - Apache Kafka is a distributed data store optimized for ingesting and processing streaming data in real-time.
   - Kafka provides three main functions to its users:
     - Publish and subscribe to streams of records
@@ -70,7 +85,7 @@
   - Kafka is primarily used to build real-time streaming data pipelines and applications that adapt to the data streams.
   - It combines messaging, storage, and stream processing to allow storage and analysis of both historical and real-time data.  
   
-- **Apache Nifi**
+- **Apache Nifi** [https://nifi.apache.org/]
   - Designed to automate the flow of data between software systems .
   - Apache NiFi supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.
   - Web-based user interface
@@ -93,8 +108,25 @@
     - Multi-tenant authorization and internal authorization/policy management.
       - The authority level of a given dataflow applies to each component, allowing the admin user to have fine grained level of access control. This means each NiFi cluster is capable of handling the requirements of one or more organizations. Compared to isolated topologies, multi-tenant authorization enables a self-service model for dataflow management, allowing each team or organization to manage flows with a full awareness of the rest of the flow, to which they do not have access.
   
-- SyncSort
-- WaveFront
+- **SyncSort**[https://www.precisely.com/]
+  - Syncsort now also known as Pricesely is the global leader in Big Iron to Big Data software. Organizes data everywhere, to keep the world working – the same data that powers machine learning, AI and predictive analytics.
+  - Their Products provide a simple way to optimize, assure, integrate, and advance data, helping to solve for the present and prepare for the future.
+  - Syncsort software provides specialized solutions spanning “Big Iron to Big Data,” including next gen analytical platforms such as Hadoop, cloud, and Splunk.
+  - Connect helps you take control of your data from mainframe to cloud. Integrate data through batch and real-time ingestion for advanced analytics, comprehensive machine learning and seamless data migration.
+  - Connect leverages the expertise Precisely has built over decades as a leader in mainframe sort and IBM i data availability and security to lead the industry in accessing and integrating complex data. Access to all your enterprise data for the most critical business projects is ensured by support for a wide range of sources and targets for all your ELT and CDC needs.
+
+- **WaveFront** [https://docs.wavefront.com/index.html]
+  - Wavefront is a high-performance streaming analytics platform that supports observability for metrics, counters, histograms, and traces/spans. Wavefront is unique because it scales to very high data ingestion rates and query loads. You can collect data from many services and sources across your entire application stack, and can look at details for earlier data that were ingested earlier.
+  - It is a SaaS-based, enterprise observability platform with the ability to visualize, alert and query data.
+  - Can use Wavefront to ingest time-series metrics, histograms, traces and spans logs. Data can be sent into Wavefront through integrations, a Wavefront proxy, or through direct ingestion.
+  - Wavefront Top is an open source tool to easily visualize the overall data ingestion shape into your Wavefront instance and quickly identify namespaces or sources with high points per second (PPS) and high lag time.
+  - Wavefront Top improves monitoring across your organization, allowing you to quickly discover which namespaces are sending a lot of data, calculate the percentage of “accessed” data, and view the range of values of namespaces.
+  - The advantage of using the proxy benefits from Wavefront are:
+    - Prevent data loss, optimize network bandwidth – The proxy buffers and manages data traffic. Even if there’s a connectivity problem, you don’t lose data points.
+    - Simple firewall configuration – The proxy receives metrics from many agents on different hosts and forwards those metrics to the Wavefront service. You don’t need to open internet access for each of the agents.
+    - Enrich or filter data – You can set up the proxy preprocessor to filter data before it’s sent to Wavefront.
+    - Examine bottlenecks – Each proxy generates its own metrics. You can learn about incoming and outgoing data in the Wavefront Service and Proxy dashboard of the Wavefront Usage integration.
+
 - Apache Storm
 - Data Torrent
 - Apache Samza
