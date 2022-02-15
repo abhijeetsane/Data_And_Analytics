@@ -127,9 +127,93 @@
     - Enrich or filter data – You can set up the proxy preprocessor to filter data before it’s sent to Wavefront.
     - Examine bottlenecks – Each proxy generates its own metrics. You can learn about incoming and outgoing data in the Wavefront Service and Proxy dashboard of the Wavefront Usage integration.
 
-- Apache Storm
-- Data Torrent
-- Apache Samza
-- Gobblin
-- Apache Fume
-- Apache Sqoop
+- **Apache Storm** [https://storm.apache.org/]
+  - Apache Storm is a distributed real-time big data-processing system.
+  - Storm is designed to process vast amount of data in a fault-tolerant and horizontal scalable method.
+  - It is a streaming data framework that has the capability of highest ingestion rates. Though Storm is stateless, it manages distributed environment and cluster state via Apache ZooKeeper. It is simple and you can execute all kinds of manipulations on real-time data in parallel.
+  - Apache Storm is continuing to be a leader in real-time data analytics. Storm is easy to setup, operate and it guarantees that every message will be processed through the topology at least once.
+  - Benefits of using Apache Storm are:
+    - Storm is open source, robust, and user friendly. It could be utilized in small companies as well as large corporations.
+    - It is fault tolerant, flexible, reliable, and supports any programming language.
+    - Allows real-time stream processing.
+    - It is unbelievably fast because it has enormous power of processing the data.
+    - Can keep up the performance even under increasing load by adding resources linearly. It is highly scalable.
+    - Performs data refresh and end-to-end delivery response in seconds or minutes depends upon the problem. It has very low latency.
+    - Storm has operational intelligence.
+    - Provides guaranteed data processing even if any of the connected nodes in the cluster die or messages are lost.
+  - Several use cases for real time data big processing are:
+    - Credit card companies can use it for fraud detection on swipe.
+    - Investment banks can use it for trade pattern analysis in real time.
+    - Retail stores can use it for dynamic pricing.
+    - Transportation providers can use it for route suggestions based on traffic data.
+    - Healthcare providers can use it for the monitoring of ICU sensors.
+    - Telecom organizations can use it for processing switch data.
+
+- **Data Torrent** [http://www.datatorrent.com]
+  - DataTorrent enables organizations to accelerate business outcomes through rapid deployment of enterprise hardened, fast big data analytics applications using the latest innovations in operationalization, data science and machine learning.
+  - Provides stream processing platform to help companies extract value from their big data in real-time. It enables its users to build and deploy production applications easily and rapidly while extracting relevant insights to make real-time decisions.
+  - Some of the popular use cases are Hadoop, Big Data, Massive Scale Data Processing, Cloud Computing, Real-time Streaming, Fault Tolerance, Scalability, Big Data Applications, Fraud Prevention , and Data Analytics.
+  - DataTorrent dtIngest, built on the enterprise-grade Project pex, delivers secure, high performance and fault tolerant data ingestion for any Hadoop-based project.
+  - DataTorrent dtIngest makes configuring and running Hadoop data ingestion and data extraction a point-and-click process and includes enterprise-grade features.
+  - Some unique features provided by dtIngest include:
+    - Handling of batch and stream data, supporting the movement of data between NFS, (S)FTP, Hadoop Distributed File System (HDFS), AWS S3n, Kafka and Java Messaging Service (JMS) with one platform to exchange data across multiple endpoints.
+    - Configurable automatic compaction of small files into large files during ingest into HDFS, to help prevent running out of HDFS namenode namespace.
+    - Secure and efficient data movement through compression and encryption during ingestion, certified for Kerberos-enabled secure Hadoop clusters.
+    - Compatibility with any Hadoop 2.0 cluster, certified to run across all major Hadoop distributions in physical, virtual or in-the-cloud deployments.
+
+- **Apache Samza** [https://samza.apache.org/]
+  - Apache Samza is a distributed stream processing framework. It uses Apache Kafka for messaging, and Apache Hadoop YARN to provide fault tolerance, processor isolation, security, and resource management.
+  - Samza's key features include:
+    - Simple API: Unlike most low-level messaging system APIs, Samza provides a very simple callback-based "process message" API comparable to MapReduce.
+    - Managed state: Samza manages snapshotting and restoration of a stream processor's state. When the processor is restarted, Samza restores its state to a consistent snapshot. Samza is built to handle large amounts of state (many gigabytes per partition).
+    - Fault tolerance: Whenever a machine in the cluster fails, Samza works with YARN to transparently migrate your tasks to another machine.
+    - Durability: Samza uses Kafka to guarantee that messages are processed in the order they were written to a partition, and that no messages are ever lost.
+    - Scalability: Samza is partitioned and distributed at every level. Kafka provides ordered, partitioned, replayable, fault-tolerant streams.YARN provides a distributed environment for Samza containers to run in.
+    - Pluggable: Though Samza works out of the box with Kafka and YARN, Samza provides a pluggable API that lets you run Samza with other messaging systems and execution environments.
+    - Processor isolation: Samza works with Apache YARN, which supports Hadoop's security model, and resource isolation through Linux CGroups.
+  - It ingests billions of click-stream events a day from millions of visitors for analysis. Apache Samza has been a great asset to Optimizely’s Event ingestion pipeline allowing us to perform large scale, real time stream computing such as aggregations (e.g. session computations) and data enrichment on a multiple billion events / day scale.
+  - In addition to this case-study, Apache Samza is also leveraged for other use cases such as data-enrichment, re-partitioning of event streams and computing realtime metrics etc.
+
+- **Gobblin** [https://gobblin.apache.org/]
+  - A distributed data integration framework that simplifies common aspects of big data integration such as data ingestion, replication, organization and lifecycle management for both streaming and batch data ecosystems.
+  - Few of the capabilities in Gobblin are:
+    - Ingestion and export of data from a variety of sources and sinks into and out of the data lake. Gobblin is optimized and designed for ELT patterns with inline transformations on ingest.
+    - Data Organization within the lake (e.g. compaction, partitioning, deduplication)
+    - Lifecycle Management of data within the lake (e.g. data retention)
+    - Compliance Management of data across the ecosystem (e.g. fine-grain data deletions)
+  - Features provided are Auto scalability, Fault tolerance, Data quality assurance, Extensibility, Handling data model evolution.
+  - Some Challenges addressed by Gobblin are:
+    - Source integration - Gobblin provides out-of-the-box adaptors for all of commonly accessed data sources such as S3, Kafka, Google Analytics, MySQL and Salesforce.
+    - Processing paradigm - It supports both standalone and scalable platforms, including Yarn and Hadoop. Yarn Gives the capability to run continuous ingestion in addition to scheduled batches.
+    - Extensibility - Own adaptors can be integrated with the Gobblin framework and make it leverageable for other developers in the community.
+    - Self-service - It's standalone support mode so data ingestion and transformation flow can be composed in a self-service manner, test locally using standalone mode and deploy the flow in production using scale-out mode without code change.
+
+- **Apache Flume** [https://flume.apache.org/]
+  - Apache Flume is a reliable and distributed system for collecting, aggregating and moving massive quantities of log data. It has a simple yet flexible architecture based on streaming data flows. Apache Flume is used to collect log data present in log files from web servers and aggregating it into HDFS for analysis.
+  - Some advantages of using it are:
+    - Using Apache Flume we can store the data in to any of the centralized stores (HBase, HDFS).
+    - When the rate of incoming data exceeds the rate at which data can be written to the destination, Flume acts as a mediator between data producers and the centralized stores and provides a steady flow of data between them.
+    - Provides the feature of contextual routing.
+    - The transactions in Flume are channel-based where two transactions (one sender and one receiver) are maintained for each message. It guarantees reliable message delivery.
+    - Flume is reliable, fault tolerant, scalable, manageable, and customizable.
+  - Some of the notable features of Flume are as follows −
+    - Flume ingests log data from multiple web servers into a centralized store (HDFS, HBase) efficiently.
+    - Using Flume, we can get the data from multiple servers immediately into Hadoop.
+    - Along with the log files, Flume is also used to import huge volumes of event data produced by social networking sites like Facebook and Twitter, and e-commerce websites like Amazon and Flipkart.
+    - Supports a large set of sources and destinations types.
+    - Flume supports multi-hop flows, fan-in fan-out flows, contextual routing, etc.
+    - Flume can be scaled horizontally.
+
+- **Apache Sqoop** [https://sqoop.apache.org/]
+  - Apache SQOOP (SQL-to-Hadoop) is a tool designed to support bulk export and import of data into HDFS from structured data stores such as relational databases, enterprise data warehouses, and NoSQL systems. It is a data migration tool based upon a connector architecture which supports plugins to provide connectivity to new external systems.
+  - Key features of Apache Sqoop are:
+    - Robust: Apache Sqoop is highly robust in nature. It has community support and contribution and is easily usable.
+    - Full Load: Using Sqoop, we can load a whole table just by a single Sqoop command. Sqoop also allows us to load all the tables of the database by using a single Sqoop command.
+    - Incremental Load: Sqoop supports incremental load functionality. Using Sqoop, we can load parts of the table whenever it is updated.
+    - Parallel import/export: Apache Sqoop uses the YARN framework for importing and exporting the data. This provides fault tolerance on the top of parallelism.
+    - Import results of SQL query: Sqoop also allows us to import the result returned from the SQL query into Hadoop Distributed File System.
+    - Compression: We can compress our data either by using the deflate(gzip) algorithm with the –compress argument or by specifying the –compression-codec argument. We can load a compressed table in Apache Hive.
+    - Connectors for all the major RDBMS Databases: Sqoop provides connectors for various RDBMS databases, covering almost all of the entire circumference.
+    - Kerberos Security Integration: Basically, Kerberos is the computer network authentication protocol which works on the basis of the ‘tickets’ for allowing nodes that are communicating over the non-secure network to prove their identity to each other. Apache Sqoop provides support for Kerberos authentication.
+    - Load data directly into HIVE/HBase: Using Sqoop, we can load the data directly into the Hive for data analysis. We can also dump our data in the HBase, that is, the NoSQL database.
+    - Support for Accumulo: We can instruct Apache Sqoop to import a table in Accumulo instead of importing them in a directory in HDFS.
